@@ -1,0 +1,124 @@
+body{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+/* header */
+header{
+    background: #26d0c9;
+    color: #fff;
+    height:90px;
+}
+
+.header-logo{
+    font-size:36px;
+    float:left;
+    padding:20px 40px;
+}
+
+.header-list li{
+    list-style: none;
+    float:left;
+    padding:33px 20px;
+}
+
+
+
+/* footer */
+footer{
+    background: #285167;
+    color:#fff;
+    height:120px;
+    padding:40px;
+}
+
+.footer-logo{
+    font-size:32px;
+    float:left;
+}
+
+.footer-list{
+    float:right;
+}
+
+.footer-list li{
+    list-style: none;
+    padding-bottom:20px;
+    
+}
+
+
+/* main */
+.main{
+    padding:100px 80px;
+}
+
+.copy-container h1{
+    font-size:100px;
+}
+
+#sp1{
+    color:red;
+}
+#sp2{
+    color:green;
+}
+#sp3{
+    color:blue;
+}
+
+.copy-container h2{
+    font-size: 40px;
+}
+
+
+/* contenst */
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section-title{
+    border-bottom:2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom:15px;
+    margin-bottom:50px;
+}
+
+
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+
+img{
+    height:180px;
+    width:240px;
+}
+
+.contents-item p{
+    font-size: 20px;
+    margin:5px 0 60px 0;
+}
+
+
+
+/* contact-form */
+.contact-form{
+    padding-top: 200px;
+}
+
+input, textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border: 1px solid #dee7ec
+}
+
+.contact-submit{
+    background: #dee7ec;
+    color:#889eab;
+}
